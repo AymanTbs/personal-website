@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('impresionante-fondo-borroso-abstracto-malla-vectorial-diseno-web-fondo-pantalla-borroso-degradado-colorido_84176-2214.jpg'); /* Add the background image */
+  background-size: cover; /* bech teswira te5o lecran keml */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* wa9t tscroli tb9a backgroud mfixiya */
+  color: #fff; /* change l couleur lel white */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* bech l body ye5o lheight kml */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* background 9rib lel transparent */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* wa9t t7ot souris 3la w7da mel nav yetbedel couleur mt3ha */
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* 9rib lel transparent for content */
+  margin: 20px;
+  border-radius: 10px; /* lajneb mdawra Rounded corners */
+  flex: 1; /* lahna najmo nzido contenue 9ad man7ebo wel footer yelsa9 lota */
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7); /* background 9rib lel transparent */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* nzido Styles for Better Readability */
+h1, h2 {
+  color: #ffcc00; /* Yellow color for headings */
+}
+
+p {
+  line-height: 1.6; /* Improve readability */
+}
+
+a {
+  color: #ffcc00; /* Yellow color for links */
+}
+
+a:hover {
+  text-decoration: underline; /* links msatrin fil hover */
+}
+
+/* Quiz Form Styles */
+#quiz-form {
+  background-color: rgba(255, 255, 255, 0.1); /* 9rib lel transparent white */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#quiz-form p {
+  color: #fff; /* net2akdo li text yetara */
+}
+
+#quiz-form input {
+  margin-right: 10px;
+}
+
+#result {
+  font-weight: bold;
+  color: #ffcc00; /* result todhher beloun lasfer */
+}
+
+/* Contact Form Styles */
+#contact-form {
+  background-color: rgba(255, 255, 255, 0.1); /* 9rib lel transparent white */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contact-form label {
+  color: #fff; /* net2akdo li labels yetara */
+}
+
+#contact-form input, #contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* background fet7 lel inputs */
+}
+
+#contact-form button {
+  background-color: #ffcc00; /* Yellow button */
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #e6b800; /* asfar lel hover */
+}
+
+/* Social Media Icons */
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease; /* Add a hover effect */
+}
+
+.social-media a:hover {
+  transform: scale(1.2); /* bech tekber l icon ki t3adi 3liha souris */
+}
+
+.social-media img {
+  width: 40px; /* nbadel 7ajm l icon */
+  height: 40px;
+}
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: rgba(255, 255, 255, 0.1); /* bakcground 9rib lel transparant */
+  border-radius: 10px;
+  overflow: hidden; /* net2akdo ano lajneb lemdawra 4ahra */
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* borders fet7a lel rows */
+}
+
+table th {
+  background-color: rgba(0, 0, 0, 0.7); /* background ak7el lel header */
+  color: #ffcc00; /* Yellow color lel header text */
+}
+
+table tr:hover {
+  background-color: rgba(255, 255, 255, 0.05); /* l hover yefte7 ki n7oto souris */
+}
+/* Navigation Menu Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7); /* background 9rib lel transparant */
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* ybadel link color fil hover */
+}
+/* Rounded Images */
+img {
+  border-radius: 15px; /* ken n7eb nzid ndawro najem lena */
+  max-width: 100%;
+  height: auto;
+}

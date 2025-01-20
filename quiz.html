@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="academic.html">Academic Background</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="events.html">Scientific Events</a></li>
+        <li><a href="subjects.html">Studied Subjects</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Test Your Knowledge</h2>
+      <form id="quiz-form">
+        <div>
+          <p>1. What does HTML stand for?</p>
+          <input type="radio" name="q1" value="a"> Hyper Text Markup Language<br>
+          <input type="radio" name="q1" value="b"> High-Level Text Machine Language<br>
+          <input type="radio" name="q1" value="c"> Hyperlink and Text Management Language<br>
+        </div>
+        <div>
+          <p>2. Which language is used for styling web pages?</p>
+          <input type="radio" name="q2" value="a"> JavaScript<br>
+          <input type="radio" name="q2" value="b"> CSS<br>
+          <input type="radio" name="q2" value="c"> HTML<br>
+        </div>
+        <div>
+          <p>3. What is the output of `2 + "2"` in JavaScript?</p>
+          <input type="radio" name="q3" value="a"> 4<br>
+          <input type="radio" name="q3" value="b"> 22<br>
+          <input type="radio" name="q3" value="c"> Error<br>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="result"></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Trabelsi Ayman. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
